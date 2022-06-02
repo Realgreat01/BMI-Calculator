@@ -1,0 +1,13 @@
+:root{
+    --primary: #fff;
+    --secondary: #4a4afa;
+};
+
+*{
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+@import "./landing";
+@import "./data";
+@import "./result";

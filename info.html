@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>BMI Calculator</title>
+</head>
+<body>
+   <main id="info">
+    <section>
+
+        <h1>Let's Know You !</h1>
+        <div id="form">
+            <div>
+                <label for="firstname">First Name:</label>
+                <input type="text" name="" id="firstname" placeholder="Enter your First Name" required="required">
+            </div>
+            <div>
+                <label for="lastname">Last Name:</label>
+                <input type="text" name="" id="lastname" placeholder="Enter your Last Name" required="required">
+            </div>
+            <div>
+                <label for="age">Age : </label>
+                <input type="text" name="" id="age" placeholder="Enter your Age" required="required">
+            </div>
+            <div>
+                <label for="gender">Sex : </label>
+                <select name="" id="gender">
+                    <option value="male" selected> Male</option>
+                    <option value="female">Female</option>
+                    <option value="non">Prefer Not to Say</option>
+                </select>
+            </div>
+        </div>
+        <div class="btn">
+            <button type="submit" id="info-back" class="prev"><a href="index.html">Go Back</a></button>
+            <button type="button" id="info-next" class="next">Continue</button>
+        </div>
+    </section>
+   </main>
+   <script src="app.js"></script>
+</body>
+</html>

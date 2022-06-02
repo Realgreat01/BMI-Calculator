@@ -1,0 +1,83 @@
+#result{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    // text-align: center;
+    #back-arrow{
+        height: 20px;
+        width: 20px;
+        // filter: brightness(0);
+        transform: rotate(-90deg)
+    }
+
+    #arrow-bg{
+        height: 40px;
+        width: 40px;
+        z-index: 10;
+        position: absolute;
+        padding: 10px;
+        top: 10px;
+        left: 10px;
+        border-radius: 50%;
+        background: rgb(23, 107, 204);
+    }
+
+    h2{
+        align-self: start;
+        display: block;
+        text-align: left;
+        margin-left: 40px;
+    }
+    #fullname{
+        display: block;
+    }
+    #bmi{
+        background: rgb(235, 230, 230);
+        width: 50px;
+        display: inline-block;
+        text-align: center;
+        color: rgb(126, 235, 144);
+    }
+    #flex{
+        display: flex;
+        position: relative;
+    }
+    .doctor{
+        height: 50px;
+        background: #eef;
+        border: 2px solid rgb(24, 235, 17);
+        padding: 10px;
+        border-radius: 50%;
+        width: 50px;
+
+        position: absolute;
+        right: 10px;
+        top: 0px;
+
+    }
+    
+    #advice{
+        background: rgb(235, 230, 230);
+        display: block;
+        width: 80%;
+        margin: 20px auto;
+        height: fit-content;
+        padding: 20px;
+        border-radius: 10px;
+        text-overflow: ellipsis;
+    }
+
+    .meet{
+        width: 80%;
+        display: block;
+        margin: 20px auto;
+        background: var(--secondary);
+        color: var(--primary);
+        border: none;
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+}
