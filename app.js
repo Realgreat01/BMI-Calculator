@@ -17,6 +17,8 @@ const infoNextfn =()=>{
              localStorage.setItem("lastName", lastName.value);
              localStorage.setItem("age", age.value);
              localStorage.setItem("gender", gender.value);
+             localStorage.setItem("localHeight", 150);
+             localStorage.setItem("localWeight", 50);
         }
     
         else{
